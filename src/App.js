@@ -10,7 +10,7 @@ import Home from "./components/common/home.jsx";
 import Signin from "./components/Signpages/signin.jsx";
 import Signup from "./components/Signpages/signup.jsx";
 import Forgotpassword from './components/Signpages/forgotpassword.jsx';
-
+import Customerlandingpage from './components/customer/customerlandingpage.jsx';
 function App() {
   return (
     <Router>
@@ -23,6 +23,7 @@ function App() {
             <Route exact path='/signin' element={<Signin/>}/>
             <Route exact path='/signup' element={<Signup/>}/>
             <Route exact path='/forgotpassword' element={<Forgotpassword/>}/>
+            <Route eaxct path='/customerlandingpage' element={<Customerlandingpage/>}/>
           </Routes>
           
         </div>
