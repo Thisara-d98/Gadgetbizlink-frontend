@@ -12,20 +12,13 @@ function Introduction() {
             <div class="col col-sm-12 text-light" id="introductiondiv">
                 <p>GBL<i class="fa fa-wrench" aria-hidden="true"></i> is the best Marketplace to make your life easy.</p>
                 <p>
-                    <button
-                    className="btn btn-light"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target="#collapseExample"
-                    aria-expanded="false"
-                    aria-controls="collapseExample"
-                    >
+                    <button className="btn btn-light" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                         click here to see why
                     </button>
                 </p>
                 <div >
                     <div className="collapse" id="collapseExample">
-                        <div className="card card-body" >
+                        <div className="card card-body text-white" >
                             Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
                         </div>
                     </div>

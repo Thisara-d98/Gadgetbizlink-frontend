@@ -2,9 +2,9 @@ import React from 'react';
 import Header from '../common/header.jsx';
 import Footer from '../common/footer.jsx';
 import '../../resources/styles/Signpages/signin.css';
+import {Link} from 'react-router-dom';
 function Signin(){
     return(
-        
         <section>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"></link>
@@ -55,7 +55,7 @@ function Signin(){
                             </div>
         
                             <div class="text-center text-lg-start mt-4 pt-2">
-                                <button type="button" class="btn btn-dark btn-lg" style={{"padding-left": "2.5rem", "padding-right": "2.5rem"}}>Login</button>
+                                <Link to="/customer/landingpage"><button type="button" class="btn btn-dark btn-lg" style={{"padding-left": "2.5rem", "padding-right": "2.5rem"}}>Login</button></Link>
                                 <p class="small fw-bold mt-2 pt-1 mb-0">Don't have an account? <a href="#!"class="link-danger">Register</a></p>
                             </div>
         

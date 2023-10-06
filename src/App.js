@@ -11,6 +11,8 @@ import Signin from "./components/Signpages/signin.jsx";
 import Signup from "./components/Signpages/signup.jsx";
 import Forgotpassword from './components/Signpages/forgotpassword.jsx';
 import Customerlandingpage from './components/customer/customerlandingpage.jsx';
+import Customerviewshoppage from './components/customer/customerviewshoppage.jsx';
+
 function App() {
   return (
     <Router>
@@ -23,7 +25,8 @@ function App() {
             <Route exact path='/signin' element={<Signin/>}/>
             <Route exact path='/signup' element={<Signup/>}/>
             <Route exact path='/forgotpassword' element={<Forgotpassword/>}/>
-            <Route eaxct path='/customerlandingpage' element={<Customerlandingpage/>}/>
+            <Route exact path='/customer/landingpage' element={<Customerlandingpage/>}/>
+            <Route exact path='/customer/viewshoppage' element={<Customerviewshoppage/>}/>
           </Routes>
           
         </div>

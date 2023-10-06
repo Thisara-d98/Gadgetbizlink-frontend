@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import {Link} from 'react-router-dom';
 
 function Header() {
     return(
@@ -13,9 +13,9 @@ function Header() {
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <p class="nav-item nav-link active" href="#"><i class="fa fa-home" aria-hidden="true"></i>Home <span class="sr-only">(current)</span></p>
-                    <p class="nav-item nav-link" href="#">sign in</p>
-                    <p class="nav-item nav-link" href="#">signUp</p>
+                    < Link to= "/" style={{"text-decoration": "none"}}><p class="nav-item nav-link active" href="#"><i class="fa fa-home" aria-hidden="true"></i>Home <span class="sr-only">(current)</span></p></Link>
+                    < Link to= "/signin" style={{"text-decoration": "none"}}><p class="nav-item nav-link active" href="#">sign in</p></Link>
+                    < Link to= "/signup" style={{"text-decoration": "none"}}><p class="nav-item nav-link active" href="#">sign up</p></Link>
                 </div>
             </div>
         </nav>
